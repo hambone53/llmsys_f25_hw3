@@ -3,11 +3,6 @@
 We will continue adding modules to miniTorch framework. 
 In this assignment, students will implement a decoder-only transformer architecture (GPT-2), train it on machine translation task (IWSLT14 German-English), and benchmark their implementation.
 
-> **Development Container Setup**: This project includes a dev container configuration in the `.devcontainer` folder.  
-> To use it, open this project in VS Code and click "Reopen in Container" when prompted.  
-> This will set up a complete development environment with CUDA 12.1 and all required dependencies.  
-> After the container is built, run `./.devcontainer/setup.sh` to complete the setup.
-
 ## Homework Setup
 
 Clone the repository for the homework:  
