@@ -212,6 +212,13 @@ def logsumexp(input: Tensor, dim: int) -> Tensor:
     """  
     ### BEGIN ASSIGN3_1
     raise NotImplementedError
+    #Implementation Notes:
+    # Calculate the max value along the specified dimension
+    # Calculate the exponent of the input tensor minus the max value along the specified dimension
+    # Sum the exponentials along the specified dimension
+    # Take the logarithm of the summed exponentials
+    # Add the max value back to the logarithm of the summed exponentials
+    # Ensure the output tensor has the same number of dimensions as the input tensor
     ### END ASSIGN3_1
 
 
