@@ -22,6 +22,28 @@
             "showReturnValue": true,
             "redirectOutput": true,
             "purpose": ["debug-test"]
+        },
+                {
+            "name": "Python: Test softmax_loss",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "-l",
+                "-v",
+                "-k",
+                "test_softmax_loss_student"
+            ],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "stopOnEntry": false,
+            "showReturnValue": true,
+            "redirectOutput": true,
+            "purpose": ["debug-test"]
         }
     ]
 }
